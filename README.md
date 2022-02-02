@@ -16,7 +16,7 @@ In this project, you’ll be building your own reference cheat sheet to help you
 Codecademy offered to make smth similar to this [example](https://content.codecademy.com/PRO/independent-practice-projects/html-css-cheat-sheet/example/index.html). But I decided to make it more appealing to human eyes and made my option.
 
 ## Screenshots ##
-![screenshot1] (./<img width="1905" alt="screenshot_cheatsheet" src="https://user-images.githubusercontent.com/97919053/152252160-17ff8d53-75f3-4ac2-a307-7b891b311f2b.png">)
+./<img width="1905" alt="screenshot_cheatsheet" src="https://user-images.githubusercontent.com/97919053/152252160-17ff8d53-75f3-4ac2-a307-7b891b311f2b.png">
 
 ## Techniques ##
 - HTML
