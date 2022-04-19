@@ -1,0 +1,209 @@
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%; 
+}
+
+body {
+    background-color: rgb(5, 6, 10);
+    max-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: auto;
+    height: 69px;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.mission {
+    text-align: center;
+    position: relative;
+}
+
+.mission img {
+    height: 700px;
+}
+
+.mission-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(5, 6, 10);
+    width: 1200px;
+    height: auto;
+    color: white;
+    line-height: 1.2em;
+}
+
+.logo-img {
+    display: inline-block;
+    height: 50px;
+    width: auto; 
+    opacity: 0.9;
+}
+
+.navigation-menu li {
+    font-size: 22px;
+    opacity: 0.9;
+    display: inline;
+    border: 0;
+}
+
+li {
+    padding: 0 12px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h2,
+h4,
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.block-one-chart {
+    width: 1000px;
+    text-align: center;
+    position: relative;
+    margin: 60px auto;
+}
+
+.block-one-chart h3 {
+    margin-bottom: 40px;
+}
+
+.tea-card {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.tea-card h4 {
+    margin-top: 12px;
+}
+
+.card-one img {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-two img {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-three img {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-four img {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-five img {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.block-two-locations {
+    background-image: url(/Users/verkhovina/Projects/codecademy/teacozy/img/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.block-two-locations h2 {
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.location-card-one,
+.location-card-two,
+.location-card-three {
+    background-color: rgba(0,0,0,0.9);
+    height: 250px;
+    width: 300px;
+    margin: 160px 20px 0;
+    line-height: 2em;
+}
+
+.location-card-one h3 {
+    font-size: 24px;
+}
+
+.location-card-two h3 {
+    font-size: 24px;
+}
+
+.location-card-three h3 {
+    font-size: 24px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.left-corner {
+    text-align: left;
+    margin: 20px;
+}
