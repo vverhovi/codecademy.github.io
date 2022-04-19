@@ -1,0 +1,306 @@
+/* 1. Global Styles
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+}
+
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%; 
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    position: relative;
+    max-width: auto;
+    max-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* 2. Header
+======================================== */
+
+header {
+    width: auto;
+    height: 300px;
+    padding: 60px 90px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.content {
+    display: inline-block;
+}
+
+.company-logo h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-left: 25px;
+    padding: 0;
+}
+
+.navigation li{
+    float: right;
+    font-size: 1rem;
+    display: inline;
+    padding-top: 140px;
+}
+
+li {
+    padding: 0 30px;
+}
+
+li:hover {
+    color: #3172F1;
+    cursor: pointer;
+}
+
+/* 3. Homepage
+======================================== */
+
+.main-page-img {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.main-page-img img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main-page-qoute {
+    height: 490px;
+    width: 410px;
+    border-radius: 20px 0 20px 20px;
+    background-color: #3172F1;
+    color: white;
+    margin: 160px 0 220px 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.main-page-qoute h2 {
+    position: absolute;                 
+    bottom: 0;                         
+    left: 0;
+    padding: 0 25px 20px;
+    font-weight: 300;
+    line-height: 1.35em;
+}
+
+.main-page-qoute h2:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+/* 4. Portfolio
+======================================== */
+
+.portfolio {
+    margin: 0 auto;
+    background-color: #EEEEEE;
+    padding: 130px 90px;
+}
+
+.portfolio-heading,
+.team-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.portfolio-heading h1,
+.team-heading h1 {
+    font-family: 'Montserrat';
+    margin-left: 25px;
+    position: absolute;
+    left: 0;
+    max-width: 420px;
+    height: auto; 
+}
+
+.portfolio-heading p,
+.team-heading p {
+    max-width: 700px;
+    line-height: 1.6em;
+    position: absolute;
+    left: 520px;
+    height: auto;
+}
+
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.portfolio-card {
+    position:relative;
+}
+
+.portfolio-card-six {
+    height: 560px;
+    width: 406px;
+    position: relative;
+}
+
+.portfolio-card-six h2{
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    font-family: 'Montserrat';
+    text-align: right;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #3172F1;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 266px;
+    height: 74px;
+}
+
+button:hover {
+    background-color: #CB31F1;
+}
+
+.portfolio-cards-title {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-family: 'Montserrat';
+    padding: 0 20px;
+    margin: 0;
+}
+
+/* 5. Our Team
+======================================== */
+
+.team {
+    margin: 0 auto;
+    padding: 130px 90px;
+}
+
+.team-heading p {
+    padding-top: 12px;
+}
+
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.team-member-card h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 40px 0 12px;
+    color: #3172F1;
+}
+
+.team-member-card p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    color: rgba(0,0,0,0.5)
+}
+
+/* 5. Footer
+======================================== */
+
+.footer-main {
+    width: auto;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 90px;
+    margin: 0;
+}
+
+.footer-main h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-left: 25px;
+    padding: 0;
+    position: absolute;
+    max-width: 420px;
+    height: auto; 
+
+}
+
+.contacts {
+    color: white;
+    position: absolute;
+    left: 700px;
+    height: auto;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts a:hover {
+    color: #3172F1;
+}
+
+.copyright {
+    width: auto;
+    height: 80px;
+    background-color: #3172F1;
+    padding: 0 90px;
+    color: white;
+    margin: 0;
+    top: 0;
+}
+
+.copyright p {
+    text-align: left;
+    margin: 0 25px;
+    padding: 25px 0;
+    font-family: 'Montserrat';
+}
